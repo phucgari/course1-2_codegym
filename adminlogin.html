@@ -5,6 +5,20 @@
     <title>Title</title>
 </head>
 <body>
-
 </body>
+<script>
+    user=prompt("username please")
+    if (user==="admin"){
+        password=prompt("password please")
+        if (password==="TheMaster"){
+            alert("Welcome!")
+        }else if(password==null){
+            alert("Canceled")
+        }else {
+            alert("Wrong password")
+        }
+    }else{
+        alert("I don't know you")
+    }
+</script>
 </html>
